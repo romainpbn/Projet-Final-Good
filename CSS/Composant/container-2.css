@@ -1,0 +1,21 @@
+.container-2 {
+    width: 100%;
+    background-color: #cccccc;
+}
+
+.the-white h1 {
+    font-size: 3rem;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.dreams-blue h1{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 100px;
+    color: #5F9DF7;
+}

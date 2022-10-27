@@ -1,0 +1,34 @@
+.nav-bar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+   background: #cccccc;
+}
+
+
+.nav-bar .logo {
+    font-size: 3rem;
+    color: #5F9DF7;
+    text-decoration: none;
+}
+
+
+.nav-bar .nav-links ul{
+    display: flex;
+
+}
+
+.nav-bar .nav-links ul li{
+    margin: 0 10px;
+    list-style: none;
+
+}
+
+
+
+
+

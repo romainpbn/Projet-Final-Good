@@ -1,0 +1,65 @@
+@import url(Composant/container.css); /*/ lien entre style.css et composants.css /*/
+@import url(Composant/banner.css); /*/ lien entre style.css et banner.css /*/
+@import url(Composant/btn-blue.css); /*/ lien entre style.css et btn-blue.css /*/
+@import url(Composant/nav-bar.css); /*/ lien entre style.css et nav-bar.css /*/
+@import url(Composant/trusters.css); /*/ lien entre style.css et trusters.css /*/
+@import url(Composant/container-2.css); /*/ lien entre style.css et containerr-2.css /*/
+@import url(Composant/cards.css); /*/ lien entre style.css et containerr-2.css /*/
+@import url(Composant/cards-menu.css); /*/ lien entre style.css et containerr-2.css /*/
+@import url(Composant/container-cards.css); /*/ lien entre style.css et containerr-2.css /*/
+@import url(Composant/footer.css); /*/ lien entre style.css et containerr-2.css /*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body   {
+    font-family: 'Kanit', sans-serif;
+    margin: 0 auto;
+    background-color: #cccccc;
+}
+
+header{
+    height: 100bh;
+    width: 100vw;
+    background-image: url(Banner.png);
+    background-size: cover;
+}
+
+a    {
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .btn-blue{
+        margin: 1%;
+    
+    }
+}
+
+@media (max-width: 500px) {
+    .original {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .original {
+        padding: 0 1.5rem;
+    }
+  }
